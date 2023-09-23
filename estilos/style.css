@@ -38,13 +38,16 @@ section#login {
     height: 500px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+
+    transition: width .3s, height .3s;
+    transition: ease;
 }
 
 section#login > div#imagem {
     display: block;
-    background: #5f2c82 url('../imagens/layout.jpg') no-repeat;
+    background: #5f2c82 url('../imagens/louvre.jpg') no-repeat;
     background-size: cover;
-    background-position: center bottom;
+    background-position: center center;
     height: 200px;
 }
 
